@@ -3,13 +3,10 @@ import React, { Component } from 'react'
 import twitterLogo from '../twitter.svg'
 import './Login.css'
 
-class Login extends Component {
-  constructor() {
-    super()
-    this.state = {
-      username: ''
-    }
-  }
+class Login extends Component {  
+  state = {
+    username: ''
+  } 
 
   handleSubmit = event => {
     event.preventDefault()
