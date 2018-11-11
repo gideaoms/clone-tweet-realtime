@@ -31,7 +31,6 @@ class Timeline extends Component {
         tweet._id === data._id ? data : tweet
       )})
     })
-
   }
 
   handleNewTweet = async event => {
